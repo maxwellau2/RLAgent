@@ -1,6 +1,9 @@
 import numpy as np
-import gym
+
+import gymnasium as gym
 from QTableAgent import QTableAgent
+if not hasattr(np, "bool8"):
+    np.bool8 = np.bool_  # Map np.bool8 to np.bool_ (existing bool type)
 
 # Create Gym environment
 # env = gym.make("CartPole-v1", render_mode="human")
