@@ -18,9 +18,13 @@ To train the model (not needed for the demo)
 
 ```
 source venv/bin/activate
+# To train DQNModel
 python DQNAgent.py
+# To generate Q table
+python QTableTraining.py
 ```
 
+For the Lab specific task, please refer to <strong><a href="./main.ipynb">_main.ipynb_</a></strong>
 To view the performance, simply select the venv as your runtime kernel in your jupyter notebook and run it procedurally.
 
 If running in VSCode, simply select the venv that you have defined.
