@@ -23,7 +23,7 @@ python DQNAgent.py
 
 To view the performance, simply select the venv as your runtime kernel in your jupyter notebook and run it procedurally.
 
-If running in VSCode,
+If running in VSCode, simply select the venv that you have defined.
 
 Now... here is my journey! For more detailed info, refer to my source in DQNAgent.py and QTableAgent.py respectively.
 
@@ -54,7 +54,7 @@ Needless to say, I have failed with my manual Q Table approach, thus I decided t
 
 # Chapter 2. DQN with Pytorch
 
-To by honest, I am more familiar with TensorFlow, but decided to challenge myself to learn Pytorch for this project. I followed the <a href="https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html">official PyTorch DQN tutorial</a> as a base, but I added quite a few customizations and cleaned up the code with detailed comments to reinforce my understanding.
+I am more familiar with TensorFlow, but decided to challenge myself to learn Pytorch for this project. I followed the <a href="https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html">official PyTorch DQN tutorial</a> as a base, but I added quite a few customizations and cleaned up the code with detailed comments to reinforce my understanding.
 
 ## Key features in my implementation
 
